@@ -12,6 +12,7 @@ Sebelum dilakukan analisis data, terlebih dahulu dilakukan *assessing data* dan 
 
 # Bike Sharing Dashboard
 ## Setup environment
+
 conda create --name main-ds python=3.9
 
 conda activate main-ds
