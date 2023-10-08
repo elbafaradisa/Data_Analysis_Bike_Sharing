@@ -10,11 +10,11 @@ Sebagai *data analyst* saya akan menyelesaikan permasalahan bisnis:
 
 Sebelum dilakukan analisis data, terlebih dahulu dilakukan *assessing data* dan *cleaning data* agar analisis yang dihasilkan tidak bias. Untuk analisis data dilakukan dengan menggunakan statistik deskriptif kemudian dilakukan visualisasi data.
 
-#Bike Sharing Dashboard
-##Setup environment
+# Bike Sharing Dashboard
+## Setup environment
 conda create --name main-ds python=3.9
 conda activate main-ds
 pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
 
-##Run streamlit app
+## Run streamlit app
 streamlit run dashboard.py
