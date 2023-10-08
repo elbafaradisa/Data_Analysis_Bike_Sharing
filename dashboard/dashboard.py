@@ -3,13 +3,13 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
-from babel.numbers import format_currency
+
 sns.set(style='dark') 
 
 
 # Load dataset
-day_df = pd.read_pickle('cleaned_day_df.csv')
-hour_df = pd.read_pickle('cleaned_hour_df.csv')
+day_df = pd.read_csv('cleaned_day_df.csv')
+hour_df = pd.read_csv('cleaned_hour_df.csv')
 
 # Mengubah nama value
 day_df = day_df.replace({'season' : {1 : 'Spring', 2 : 'Summer', 3 : 'Fall', 4 : 'Winter'}},)
