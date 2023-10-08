@@ -13,7 +13,9 @@ Sebelum dilakukan analisis data, terlebih dahulu dilakukan *assessing data* dan 
 # Bike Sharing Dashboard
 ## Setup environment
 conda create --name main-ds python=3.9
+
 conda activate main-ds
+
 pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
 
 ## Run streamlit app
