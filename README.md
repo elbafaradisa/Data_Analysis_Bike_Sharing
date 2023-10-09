@@ -21,3 +21,6 @@ pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
 
 ## Run streamlit app
 streamlit run dashboard.py
+
+## Tautan dashboard
+[Bike Sharing Dashboard](https://dashboardpy-3rqgcvg2f2eysuidoft8tl.streamlit.app)
